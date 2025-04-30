@@ -5,6 +5,7 @@ import ApartmentListingsPage from "../pages/ApartmentListingsPage";
 import ApartmentDetailPage from "../pages/ApartmentDetailPage";
 import ApartmentBookingLandingg from "../pages/ApartmentBookingLanding2";
 import Premium from "../pages/Premium";
+import UltraRealisticStadium from "../pages/Ultra";
 //import Listing from "../pages/Listing";
 //import Detail from "../pages/Detail";
 
@@ -16,6 +17,7 @@ function AppRoutes() {
       <Route path="/listing" element={<ApartmentListingsPage />} />
       <Route path="/detail" element={<ApartmentDetailPage />} />
       <Route path="/premium" element={<Premium />} />
+      <Route path="/s" element={<UltraRealisticStadium />} />
     </Routes>
   );
 }
